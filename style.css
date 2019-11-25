@@ -1,0 +1,251 @@
+* {
+	padding: 0;
+	margin: 0;
+	line-height: 2.5;
+	border: 0;
+}
+
+body {
+	margin: 30px;
+	border: 20px #246b8f solid;
+	min-width: 300px;
+	max-width: 1024px;
+}
+
+body div {
+	background-color: #70b8db;
+	margin: auto;
+}
+
+main {
+	font: 550 17px Comic Sans MS, Comic Sans, cursive; 
+	text-shadow: 0px 1px;
+	color: #f2f2f2;
+	padding-bottom: 50px;
+	margin: 0 100px;
+}
+
+ul {
+	/*border: 3px #f2f2f2 solid;*/
+	width: 70%
+	box-sizing: content-box;
+}
+
+li {
+	padding: 20px 0px;
+	border: 2px #f2f2f2 solid;
+	line-height: 150%;
+	text-align: justify-all;
+	box-sizing: content-box;
+}
+
+.line-1, .line-2, .line-3, .line-4 {
+	display: flex;
+	flex-wrap: row wrap;
+	box-sizing: border-box;
+	text-align: center;
+	min-width: 215px;
+
+}
+
+.Li {
+	flex: 2 2/* 50%*/;
+	background-color: #70b8db;
+}
+
+.Pr {
+	flex: 1 1/* 25%*/;
+	background-color: #33ffd6;
+}
+
+.Bel {
+	flex: 1 1/* 25%*/;
+	background-color: #d966ff;
+}
+
+.Mw {
+	flex: 1 1/* 25%*/;
+	background-color: #ff4d4d;
+}
+
+.TA {
+	flex: 1 1/* 25%*/;
+	background-color: #ff8533;
+}
+
+.Calt {
+	flex: 1 1/* 25%*/;
+	background-color: #ffff99;
+}
+
+.NY {
+	flex: 1 1/* 25%*/;
+	background-color: #00e6ac;
+}
+
+.ND {
+	flex: 1 1/* 25%*/;
+	background-color: #669999;
+}
+
+.SF {
+	flex: 2 2/* 50%*/;
+	background-color: #db70b8;
+}
+
+.Tok {
+	flex: 1 1/* 25%*/;
+	background-color: #008000;
+} 
+
+.Syd {
+	flex: 4 4/* 100%*/;
+	background-color: #7300e6;
+}
+
+/*footer {
+	display: flex;
+	line-height: 2.5;
+}*/
+/*body {
+	border: 20px #246b8f solid;
+	background-color: #70b8db;
+	font: 300 15px san-serif;
+	color: #f2f2f2;
+	
+}
+
+ul, li {
+	display: block;
+	box-sizing: border-box;
+	border: 1px white solid;
+}*/
+
+
+
+/***//*/*//***//** {
+	margin: 0;
+	padding: 0;
+}
+
+h3 {
+	padding-top: 15px;
+	padding-left: 30px;
+}
+
+.wrapper {
+	background-color: lightblue;
+	border: blue 15px solid;
+	max-width: 800px;
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.container {
+	/*margin: 50px 30px;
+	margin-top: 15px;*/
+	/*border: white 3px solid;*/
+	/*max-width: auto;*/
+	/*display: flex;*/
+	/*justify-content: center;*/
+	/*flex-flow: row wrap;
+	padding: 20px;*/
+	/*box-sizing: border-box;*/
+	/*flex-flow: row wrap;*/
+/*	justify-content: center;
+*/
+/*}
+
+.container div {
+	flex-basis: 25%;
+	height: 100px;
+}*/
+
+/*.Cities {
+	list-style: none;
+	/*display: flex;*/
+	/*flex-flow: row wrap;*/
+	/*justify-content: space-around;*/
+	/*align-items: center;*/
+/*}*//**/
+
+/*.Lisbon {
+	border: white 3px solid;*/
+	/*border-bottom: white 3px solid;*/
+	/*flex: 2 *//*1 150px;
+	height: 100px;*/
+	/*min-width: 150px;*/
+/*}
+
+.Paris {
+	border: white 3px solid;
+	flex: 1 1 150px;
+	height: 100px;
+	min-width: 150px*//*;*/
+/*}
+
+.Belgrade {
+	border: white 3px solid;
+	flex: 1 *//*1 150px;
+	height: 100px;*/
+/*/*	/*min-width: 150px;*/
+/*}
+
+.Moscow {
+	border: white 3px solid;
+	flex: 1 *//*1 150px;
+	height: 100px;*/
+	/*min-width: 150px;*/
+/*}
+
+.Tel_Aviv {
+	border: white 3px solid;
+	flex: 1 *//*1 150px;*/
+	/*height: 100px;*/*/
+	/*min-width: 150px;*/
+/*}
+
+.Calt {
+	border: white 3px solid;
+	flex: 1 *//*1 150px;
+	height: 100px;*/
+	/*min-width: 150px;*/
+/*}
+
+.New_York {
+	border: white 3px solid;
+	flex: 1 /*1 150px;
+	height: 100px;*/
+	/*min-width: 150px;*/
+/*}
+
+.New_Delhi {
+	border: white 3px solid;
+	flex: 1 /*1 150px;
+	height: 100px;*/
+	/*min-width: 150px;
+}*/
+/*
+.San_Francisco {
+	border: white 3px solid;
+	flex: 2 *//*1 150px;
+	height: 100px;*/
+	/*min-widt*//*/*h: 150px;*/
+/*}
+
+.Tokyo {
+	border: white 3px solid;
+	flex-grow: 1 **//*//*1 150px;
+	height: 100px;*/
+	/*min-width: 150px;*/
+/*}
+
+.Sydney {
+	border: white 3px solid;
+	flex-gr*//*ow: 4 1 150px;
+	height: 100px;*/
+/*}*/
+
+
+
